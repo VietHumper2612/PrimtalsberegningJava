@@ -1,0 +1,9 @@
+---
+name: Simple Java Test
+author: Theis Jensen
+description: Simple Java application for Green Metrics Tool testing
+
+services:
+  java-app:
+    build: .
+    container_name: primtalsberegningjava
