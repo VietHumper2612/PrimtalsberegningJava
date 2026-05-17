@@ -1,6 +1,4 @@
-// src/Main.java
 public class Main {
-    // Ultra-simple primality test: checks divisibility up to sqrt(n)
     public static boolean isPrime(long n) {
         if (n < 2) return false;
         if (n % 2 == 0) return n == 2;
@@ -10,9 +8,8 @@ public class Main {
         return true;
     }
 
-    // Prints primes from 2 up to max (default 100). Accepts optional arg: max
     public static void main(String[] args) {
-        int max = 100;
+        int max = 10000000;
         if (args.length > 0) {
             try { max = Integer.parseInt(args[0]); } catch (NumberFormatException ignored) {}
         }
