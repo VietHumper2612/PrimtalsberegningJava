@@ -13,5 +13,5 @@ flow:
     container: primtalsberegningjava
     commands:
       - type: console
-        command: java Main 100
-        note: Calculate primes up to 100
+        command: java Main 10000000
+        note: Calculate primes up to 10000000
